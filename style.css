@@ -1,0 +1,143 @@
+/*
+  Theme Name: TKIT-Beratung
+  Version: 1.0
+  Description: eigenes Wordpress Theme
+  Author: Simon Klein
+*/
+
+/*
+dark-blue: #18474E
+Gray (x11): #BCBCC2
+spanish-virdian: #007E52
+Dunkel-Grau: #787b84
+ */
+
+/* === Global === */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #EDEDED;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-container {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+}
+
+.intro-container h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.intro-container p {
+  font-size: 1.6rem;
+}
+
+/* === Navigationsleiste === */
+
+#header-nav {
+  width: 100%;
+  height: 50px;
+  background-color: #18474E;
+  font-weight: bold;
+  font-size: 1.1rem;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  max-height: 54px;
+}
+
+nav img.custom-logo {
+  max-height: 100%;
+  width: auto;
+  float: left;
+  margin: 0;
+}
+
+#header-nav ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+  float: right;
+  height: 100%;
+}
+
+#header-nav ul > li {
+  display: inline-block;
+  padding: 0 .4rem;
+  height: 100%;
+}
+
+#header-nav ul > li > a {
+  display: inline-block;
+  margin-top: 0.8rem;
+}
+
+#header-nav ul > li > a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#header-nav ul > li > a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#header-nav ul > li > a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#header-nav ul > li > a:active {
+  color:#BCBCC2;
+  text-decoration: none;
+}
+
+#header-nav .col-lg-12 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#header-nav .container,
+#header-nav .row,
+#header-nav .col-lg-12 {
+  height: 100%;
+}
+
+#site-header > img {
+  width: 100%;
+  background-size: contain;
+  background: no-repeat;
+}
+
+#header-nav-unten {
+  width: 100%;
+  height: 50px;
+  background-color: #18474E;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: -.3rem;
+}
