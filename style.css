@@ -141,3 +141,13 @@ nav img.custom-logo {
   font-size: 1.1rem;
   margin-top: -.3rem;
 }
+
+#footer {
+  background-color: #18474E;
+  padding: 0;
+  color: #fff;
+}
+
+#footer p {
+  padding-left: .5rem;
+}
